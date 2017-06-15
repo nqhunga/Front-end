@@ -1,0 +1,161 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	border-right: .5px solid #E7E7E7;
+	border-left: .5px solid #E7E7E7;
+	background: #FAFAFA;
+}
+
+/*HEADER */
+.row.centered {
+	text-align: center;
+}
+
+.header img {
+	width: 100%;
+}
+
+/*NAVIGATION*/
+.navbar {
+	background: #FAFAFA;
+	border-left: none;
+	border-right: none;
+}
+
+.logo img {
+	display: block;
+	margin: 5vh auto;
+
+}
+
+.navbar ul {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+/*FEATURES*/
+.feature {
+	padding: 2vh 1vh;
+}
+
+.feature img {
+	width: 100%;
+}
+
+.feature p {
+	display: block;
+	width: 70%;
+	padding: 10% 0;
+}
+
+.feature .content {
+	display: flex;
+	padding: 10% 5%;
+}
+
+/*GALLERY*/
+.gallery {
+	padding: 2vh 1vh;
+	text-align: center;
+}
+
+.gallery img {
+	width: 100%;
+}
+
+.gallery h3 {
+	letter-spacing: 1px;
+	padding: 2px;
+	vertical-align: middle;
+}
+
+/*ICON FEATURE*/
+.icon {
+	padding: 10vh;
+	color: #554D99;
+}
+
+.icon img {
+	width: 100%;
+}
+
+.icon .content-right {
+	text-align: right;
+	padding: 2vh 2vh;
+	line-height: 3vh;
+}
+
+.icon .content-left {
+	text-align: left;
+	padding: 2vh 2vh;
+	line-height: 3vh;
+}
+
+.icon .fa {
+	font-size: 200%;
+}
+
+/*INSTALL*/
+.install {
+	padding: 2vh 1vh;
+}
+
+.install img {
+	width: 100%;
+}
+
+.install .content {
+	padding: 7% 7%;
+}
+
+.install .btn-primary {
+	background-color: transparent;
+	border: 1px solid #286090;
+	color: #286090;
+	border-radius: 40px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 80%;
+	font-weight: 600;
+}
+
+.install .btn-primary:hover {
+	background-color: #286090;
+	color: #fff;
+}
+
+/*SHOP*/
+.shop {
+	padding: 2vh 1vh;
+	text-align: center;
+}
+
+.shop h2 {
+	font-weight: 600;
+}
+
+.shop img {
+	width: 100%;
+}
+
+.shop .btn-primary {
+	background-color: transparent;
+	border: 1px solid #286090;
+	color: #286090;
+	border-radius: 40px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 80%;
+	font-weight: 600;
+	width: 20%;
+	height: 20%;
+}
+
+.shop .btn-primary:hover {
+	background-color: #286090;
+	color: #fff;
+}
